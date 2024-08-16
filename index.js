@@ -36,12 +36,12 @@ window.addEventListener("load", function () {
   }
 
   var buildUrl = "Build";
-  var loaderUrl = buildUrl + "/TekTest.loader.js";
+  var loaderUrl = buildUrl + "/WebGL Builds.loader.js";
   var config = {
-    dataUrl: buildUrl + "/TekTest.data.gz",
-    frameworkUrl: buildUrl + "/TekTest.framework.js.gz",
-    codeUrl: buildUrl + "/TekTest.wasm.gz",
-    symbolsUrl: buildUrl + "/TekTest.symbols.json.gz",
+    dataUrl: buildUrl + "/WebGL Builds.data",
+    frameworkUrl: buildUrl + "/WebGL Builds.framework.js",
+    codeUrl: buildUrl + "/WebGL Builds.wasm",
+    symbolsUrl: buildUrl + "/WebGL Builds.symbols.json",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "DefaultCompany",
     productName: "TekTest",
